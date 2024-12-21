@@ -10,7 +10,9 @@ int main(int argc, char* argv[]) {
     }
 
     const char* filename = argv[1];
+
     const char* command = argv[2];
+    
     const char* args = argv[3];
 
     int numLines = 0;
